@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 30vw;
+  text-align: center;
+  padding: 80px 50px;
+  border-radius: 8px;
+}
+.note-text {
+  color: #1e293b;
+  font-size: 14px;
+}
+.button {
+  background-color: #ffffff;
+  height: 45px;
+  width: 150px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+}
+.even-odd {
+  font-weight: 400;
+  color: #334155;
+  font-size: 20px;
+}
